@@ -1,5 +1,5 @@
 const BASE_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:5000/api";
+  process.env.REACT_APP_API_URL || "https://pear-media-ai-beta.vercel.app/api";
 
 async function readErrorMessage(res) {
   const ct = res.headers.get("content-type") || "";
