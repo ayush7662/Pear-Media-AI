@@ -1,0 +1,26 @@
+# Environment files
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build folders
+dist/
+build/
